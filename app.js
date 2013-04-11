@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -28,7 +27,7 @@ app.configure(function(){
  */
 // mongoDBのコネクション取得
 var mongoose = require("mongoose");
-var con = mongoose.connect('mongodb://www15411ue.sakura.ne.jp/chat');
+var con = mongoose.connect('mongodb:/**************');
 // スキーマを定義
 var messagesSchema = new mongoose.Schema({
      id : {type:String},
